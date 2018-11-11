@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Login | Nalika - Material Admin Template</title>
+    <title>Login</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
@@ -71,7 +71,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="back-link back-backend">
-                    <a href="index.html" class="btn btn-primary">Back to Dashboard</a>
+                    
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"></div>
             <div class="col-md-4 col-md-4 col-sm-4 col-xs-12">
-                <div class="text-center m-b-md custom-login">
+                <div class="text-center m-b-md custom-login" style="color: aliceblue">
                     <h3>PLEASE LOGIN TO APP</h3>
                     <p>This is the best app ever!</p>
                 </div>
@@ -95,15 +95,14 @@
                             <div class="form-group">
                                 <label class="control-label" for="password">Password</label>
                                 <input type="password" title="Please enter your password" placeholder="******" required="" value="" name="password" id="password" class="form-control">
-                                <span class="help-block small">Yur strong password</span>
+                                <span class="help-block small">Your password</span>
                             </div>
                             <div class="checkbox login-checkbox">
                                 <label>
-										<input type="checkbox" class="i-checks"> Remember me </label>
-                                <p class="help-block small">(if this is a private computer)</p>
+										
                             </div>
                             <button class="btn btn-success btn-block loginbtn">Login</button>
-                            <a class="btn btn-default btn-block" href="#">Register</a>
+                            <a class="btn btn-default btn-block" href="register.html">Sign Up!</a>
                         </form>
                     </div>
                 </div>
@@ -112,7 +111,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <p>Copyright © 2018 <a href="https://colorlib.com/wp/templates/">Colorlib</a> All rights reserved.</p>
+
             </div>
         </div>
     </div>
