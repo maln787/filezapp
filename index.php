@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -5,6 +9,21 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Login</title>
+
+    <?php
+$isTouch = isset($_SESSION['check']);
+
+if($isTouch == true)
+{
+    if($_SESSION['check']=="invalid")
+    {
+        echo "<script>alert('Wrong credentials!')</script>";
+    }
+}
+
+?>
+
+
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
@@ -86,7 +105,7 @@
                 </div>
                 <div class="hpanel">
                     <div class="panel-body">
-                        <form action="#" id="loginForm">
+                        <form action="validation.php" id="loginForm">
                             <div class="form-group">
                                 <label class="control-label" for="username">Username</label>
                                 <input type="text" placeholder="example@gmail.com" title="Please enter you username" required="" value="" name="username" id="username" class="form-control">
